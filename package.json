@@ -6,6 +6,7 @@
         "dev:all": "concurrently \"npm run dev:webhook\" \"npm run dev\"",
         "dev": "next dev",
         "dev:webhook": "ngrok http --url=fly-assured-tahr.ngrok-free.app 3000",
+        "seed:categories": "bun src/scripts/seed-categories.ts",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"
